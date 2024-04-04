@@ -1,0 +1,34 @@
+{
+    "uz": {
+    "st": "Kashf qiling va Sayohat qiling",
+    "holiday":"Bayram topuvchi",
+    "activity":"Faoliyat",
+    "grade": "Daraja",
+    "date": "Kun",
+    "location": "Joylashuv",
+    "explore": "Kashf etish",
+    "home": "Asosiy",
+    "destination": "Belgilangan joylar",
+    "about" : "Haqida",
+    "partner" : "Sherik",
+    "login" : "Kirish",
+    "register" : "Ro'yhatdan o'tish"
+    
+    },
+    
+    "en": {
+    "st": "Explore and Travel",
+    "holiday": "Holiday finder",
+    "activity": "Activity",
+    "grade": "Grade",
+    "location": "Location",
+    "date": "Date",
+    "explore": "Explore",
+    "home": "Home",
+    "destination": "Destinations",
+    "about": "About",
+    "partner": "Partner",
+    "login": "Login",
+    "register": "Register"
+    }
+}

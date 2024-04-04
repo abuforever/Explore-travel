@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button{
+    cursor: pointer;
+
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Section{
+width: 100%;
+height: 700px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* left cart start */
+
+.left-cart{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    gap: 60px;
+}
+
+.left-cart h1{
+    width: 350px;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+}
+
+.left-cart span{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.63px;
+    text-align: left;
+}
+
+
+.selects{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 25px;
+}
+
+.selects select{
+    width: 200px;
+    height: 52px;
+    border-radius: 10px;
+    border: 0.8px solid rgba(175, 176, 185, 1);
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    outline: none;
+
+    font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+ }
+
+ .left-cart button {
+        width: 180px;
+        height: 52px;
+        border-radius: 8px ;
+        background: rgba(251, 143, 29, 1);
+        border: none;
+
+        font-family: Mulish;
+            font-size: 17px;
+            font-weight: 700;
+            color: #fff;
+ }
+/* left-cart end */
+
+
+/* right-cart start */
+
+.right-cart{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-cart img{
+    width: 90%;
+    height: 80%;
+}
+
+/* right-cart end */
+
+
+/* Navbar start */
+
+.Navbar{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cart span{
+    font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.36px;
+}
+
+.cart button{
+    width: 132px;
+    height: 44px;
+    border-radius: 8px ;
+    background: rgba(251, 143, 29, 1);
+    border: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cart select{
+    width: 50px;
+    height: 30px;
+    outline: none;
+}
+
+/* Navbar end */
