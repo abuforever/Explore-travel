@@ -12,8 +12,11 @@
     "about" : "Haqida",
     "partner" : "Sherik",
     "login" : "Kirish",
-    "register" : "Ro'yhatdan o'tish"
-    
+    "register" : "Ro'yhatdan o'tish",
+    "trend" : "Topdagi hikoyalar",
+    "rest" : "Dam olish ta'tilining ko'p foydalari",
+    "healing" : "Shifobaxsh bayramlar ko'payib bormoqdasalomatligingiz va baxtingizni maksimal darajada oshirishga yordam berish uchun ...",
+    "read" : "Ko'proq o'qish"
     },
     
     "en": {
@@ -29,6 +32,10 @@
     "about": "About",
     "partner": "Partner",
     "login": "Login",
-    "register": "Register"
+    "register": "Register",
+    "trend": "Trending stories",
+    "rest": "The many benefits of taking a healing holiday",
+    "healing" : "‘Helaing holidays’ are on the rise tohelp maximise your health and happines...",
+    "read": "Read more"
     }
 }

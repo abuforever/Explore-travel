@@ -7,6 +7,7 @@
 import React from "react";
 import Section from "./Components/Section";
 import Navbar from "./Components/Navbar";
+import Trending from "./Components/Trending";
 
 function App() {
   // const states = useStoreState();
@@ -28,6 +29,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Section />
+      <Trending/>
     </div>
   );
 }
