@@ -325,66 +325,68 @@ justify-content: center;
 
 /* Testim start */
 
-.Testim{
+.Testimonials{
+    display: flex;
     width: 100%;
     height: 600px;
-    display: flex;
     justify-content: center;
-    gap: 200px;
-    margin-top: 10%;
-}
-
-
-.edward-cart{
-    width: 500px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 90px;
-}
-
-.edward-cart h1{
-    font-family: Playfair Display;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 50px;
-        text-align: center;
-}
-
-.edward-cart p{
-    font-family: Mulish;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 36px;
-        text-align: left;
-}
-
-.circle-cart{
-    display: flex;
-    flex-direction: column;
-}
-.circle-cart h2{
-    font-family: Inter;
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 48px;
-        text-align: left;
-}
-
-.circle-cart span{
-    font-family: Inter;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 48px;
-        text-align: left;
+    gap: 300px;
 }
 
 .icon-cart{
     display: flex;
-    gap: 5px;
+    flex-direction: column;
+    gap: 20px;
 }
-/* Testim end */
+
+.full-cart{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    gap: 100px;
+    justify-content: start;
+}
+
+.Testimonials h1 {
+    width: 481px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.imgs {
+    /* stars */
+    width: 189.02px;
+    height: 24px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.Testimonials p {
+    width: 450px;
+    height: 144px;
+    font-size: 20px;
+}
+
+
+
+.Testimonials h5 {
+    width: 124px;
+    height: 48px;
+}
+
+.first-img {
+    /* image 6 */
+    width: 73px;
+    height: 58px;
+}/* Testim end */
 
 /* Corusel start */
 

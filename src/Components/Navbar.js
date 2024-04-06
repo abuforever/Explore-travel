@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import logo from "../assets/logo.png"
 import { useStoreState } from '../redux/selector'
-import locale from "../localisation/locale.json"
+import locale from "../localization/locale.json"
 import { useDispatch } from "react-redux";
 import { setLang } from "../redux/lang";
 

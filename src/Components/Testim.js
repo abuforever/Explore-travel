@@ -1,34 +1,34 @@
 import React, { useMemo } from 'react'
 import { useStoreState } from '../redux/selector'
-import locale from "../localisation/locale.json"
-import icon from "../assets/Vector (2).png"
-import img from "../assets/photo.png"
+import locale from "../localization/locale.json"
+import Frame from "../assets/Vector (2).png"
+import First from "../assets/photo.png"
 
 function Testim() {
-
     const states = useStoreState();
     const langData = useMemo(() => locale[states.lang], [states.lang])
 
     return (
-        <div className='Testim'>
-            <div className="edward-cart">
-       <h1>{langData.testim}</h1>
-                <div className="icon-cart">
-                    <img src={icon} alt="" />
-                    <img src={icon} alt="" />
-                    <img src={icon} alt="" />
-                    <img src={icon} alt="" />
-                    <img src={icon} alt="" />
-                </div>
+        <div className='Testimonials'>
 
-                <p>{langData.lacus}</p>
-
-                <div className="circle-cart">
-                    <h2>{langData.new}</h2>
-                    <span>{langData.found}</span>
-                </div>
+            <div className="full-cart">
+            <h1>{langData.test}</h1>
+            <div className="icon-cart">
+            <div className="imgs">
+                <img src={Frame} alt="" />
+                <img src={Frame} alt="" />
+                <img src={Frame} alt="" />
+                <img src={Frame} alt="" />
+                <img src={Frame} alt="" />
             </div>
-            <img src={img} alt="" />
+            <p>{langData.up}</p>
+            </div> 
+           <div className="cartt">
+            <h2>{langData.never}</h2>
+            <h5>{langData.forget}</h5>
+            </div>
+            </div>
+                <img src={First} alt="" />
         </div>
     )
 }

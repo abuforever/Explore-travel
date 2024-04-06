@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import Section from "./Components/Section";
 import Navbar from "./Components/Navbar";
@@ -8,6 +6,7 @@ import Explore from "./Components/Explore";
 import Ultimate from "./Components/Ultimate";
 import Testim from "./Components/Testim";
 import Corusel from "./Components/Corusel";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -19,6 +18,7 @@ function App() {
       <Ultimate />
       <Testim />
       <Trending />
+      <Footer/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import { useStoreState } from '../redux/selector'
-import locale from "../localisation/locale.json"
+import locale from "../localization/locale.json"
 import img1 from "../assets/image 12.png"
 import img2 from "../assets/image 13.png"
 import img3 from "../assets/image 14.png"

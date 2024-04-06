@@ -1,7 +1,7 @@
 import React , {useMemo} from 'react'
 import BTC from "../assets/BTC.png"
 import { useStoreState } from '../redux/selector'
-import locale from "../localisation/locale.json"
+import locale from "../localization/locale.json"
 
 function Ultimate() {
     const states = useStoreState();
