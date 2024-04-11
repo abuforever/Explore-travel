@@ -12,7 +12,7 @@ function Ultimate() {
             <div className="trip">
                 <h1>{langData.thousand}</h1>
                 <p>{langData.Ultimate}</p>
-                <button>{langData.Button}</button>
+                <button className='btn'>{langData.Button}</button>
             </div>
             <img src={BTC} alt="" />
         </div>

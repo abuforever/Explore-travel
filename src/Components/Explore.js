@@ -15,7 +15,7 @@ import Balloon from "../assets/brain.png"
             <div className='new way'>
                 <h1>{langData.way}</h1>
                 <p>{langData.Lonely}</p>
-                <button>{langData.button}</button>
+                <button className='btn'>{langData.button}</button>
             </div>
         </div>
     )

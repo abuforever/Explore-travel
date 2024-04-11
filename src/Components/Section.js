@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import "./Section.css"
 import rightimg from "../assets/thousand-01 1.png"
 import { useStoreState } from "../redux/selector";
-import locale from "../localisation/locale.json";
+import locale from "../localization/locale.json";
 
 function Section() {
 
@@ -37,7 +37,7 @@ function Section() {
                         <option value="" >Date 1</option>
                     </select>
                 </div>
-                <button>{langData.explore}</button>
+                <button className='btn'>{langData.explore}</button>
             </div>
 
 

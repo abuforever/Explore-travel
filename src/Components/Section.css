@@ -1,32 +1,51 @@
-*{
+@font-face {
+    font-family: 'inter';
+    src: url('../Fonts/Inter-VariableFont_slnt\,wght.ttf');
+   
+    font-weight: normal;
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: inter !important;
+    
 }
 
-button{
+
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
     cursor: pointer;
 
 }
 
-.App{
+.wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1600px;
+    width: 100%;
+    gap: 250px;
+    
 }
 
-.Section{
-width: 100%;
-height: 700px;
-display: flex;
-align-items: center;
-justify-content: center;
+.Section {
+    width: 100%;
+    /* height: 700px; */
+    display: flex;
+    gap: 147px;
 }
 
 /* left cart start */
 
-.left-cart{
+.left-cart {
     width: 40%;
     height: 100%;
     display: flex;
@@ -36,7 +55,7 @@ justify-content: center;
     gap: 60px;
 }
 
-.left-cart h1{
+.left-cart h1 {
     width: 350px;
     font-family: Playfair Display;
     font-size: 64px;
@@ -45,7 +64,7 @@ justify-content: center;
     text-align: left;
 }
 
-.left-cart span{
+.left-cart span {
     font-family: Inter;
     font-size: 22px;
     font-weight: 600;
@@ -54,15 +73,16 @@ justify-content: center;
 }
 
 
-.selects{
+.selects {
     width: 450px;
     height: 150px;
     display: flex;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
     gap: 25px;
+
 }
 
-.selects select{
+.selects select {
     width: 200px;
     height: 52px;
     border-radius: 10px;
@@ -73,40 +93,46 @@ justify-content: center;
     outline: none;
 
     font-family: Inter;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 32px;
-        text-align: left;
- }
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
 
- .left-cart button {
-        width: 180px;
-        height: 52px;
-        border-radius: 8px ;
-        background: rgba(251, 143, 29, 1);
-        border: none;
+.btn {
+    width: 180px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(251, 143, 29, 1);
+    border: none;
 
-        font-family: Mulish;
-            font-size: 17px;
-            font-weight: 700;
-            color: #fff;
- }
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn:hover {
+    background: transparent;
+    outline: #FB8F1D 1px solid;
+    color: #FB8F1D;
+    transition: 0.5s;
+}
+
 /* left-cart end */
 
 
 /* right-cart start */
 
-.right-cart{
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.right-cart {
+    width: 687px;
+    height: 654px;
+  
 }
 
-.right-cart img{
-    width: 90%;
-    height: 80%;
+.right-cart img {
+    width: 100%;
+    height: 100%;
 }
 
 /* right-cart end */
@@ -114,31 +140,31 @@ justify-content: center;
 
 /* Navbar start */
 
-.Navbar{
-    width: 70%;
+.Navbar {
+    width: 80%;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.cart{
+.cart {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.cart span{
+.cart span {
     font-family: Inter;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 19.36px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
 }
 
-.cart button{
+.cart button {
     width: 132px;
     height: 44px;
-    border-radius: 8px ;
+    border-radius: 8px;
     background: rgba(251, 143, 29, 1);
     border: none;
     color: #fff;
@@ -147,10 +173,14 @@ justify-content: center;
     font-weight: 500;
 }
 
-.cart select{
+.cart select {
     width: 50px;
     height: 30px;
     outline: none;
+    border-radius: 10px;
+    border: 0.8px solid rgba(175, 176, 185, 1);
+    background: none;
+    
 }
 
 /* Navbar end */
@@ -158,7 +188,7 @@ justify-content: center;
 
 /* Trending stories start */
 
-.Trending{
+.Trending {
     margin-top: 5%;
     width: 100%;
     height: 600px;
@@ -168,7 +198,7 @@ justify-content: center;
     gap: 30px;
 }
 
-.Trending h1{
+.Trending h1 {
     font-family: Playfair Display;
     font-size: 36px;
     font-weight: 700;
@@ -176,13 +206,13 @@ justify-content: center;
     text-align: left !important;
 }
 
-.img-carts{
+.img-carts {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-.img-cart{
+.img-cart {
     width: 280px;
     height: 500px;
     display: flex;
@@ -190,14 +220,14 @@ justify-content: center;
     gap: 15px;
 }
 
-.img-cart img{
+.img-cart img {
     width: 100%;
     height: 50%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 
-.img-cart h5{
+.img-cart h5 {
     font-family: Inter;
     font-size: 19px;
     font-weight: 700;
@@ -205,28 +235,29 @@ justify-content: center;
     text-align: left;
 }
 
-.img-cart p{
-    
+.img-cart p {
+
     font-family: Inter;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 26px;
-        text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
 }
 
-.img-cart button{
+.img-cart button {
     width: 100%;
     height: 28px;
     border: none;
     background: none;
 
     font-family: Inter;
-        font-size: 15px;
-        font-weight: 600;
-        line-height: 28px;
-        text-align: left;
-        color: rgba(251, 143, 29, 1);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(251, 143, 29, 1);
 }
+
 /* Trending stories end */
 
 
@@ -320,12 +351,13 @@ justify-content: center;
     letter-spacing: 0%;
 
 }
+
 /* explore end */
 
 
 /* Testim start */
 
-.Testimonials{
+.Testimonials {
     display: flex;
     width: 100%;
     height: 600px;
@@ -333,13 +365,13 @@ justify-content: center;
     gap: 300px;
 }
 
-.icon-cart{
+.icon-cart {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.full-cart{
+.full-cart {
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -386,7 +418,9 @@ justify-content: center;
     /* image 6 */
     width: 73px;
     height: 58px;
-}/* Testim end */
+}
+
+/* Testim end */
 
 /* Corusel start */
 
@@ -426,4 +460,5 @@ justify-content: center;
     padding: 45px;
     gap: 50px;
 }
+
 /* Corusel end */
